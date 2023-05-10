@@ -12,8 +12,8 @@
   <div class="container">
     <div class="armarios">
       <div class="borda"></div>
-      <div class="estado1" oninput="atualizar()">Ocupado</div>
-      <div class="chave"></div>
+      <div class="estado1">Ocupado</div>
+      <div id="chave" onclick="Ocupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -25,7 +25,7 @@
     </div>
     <div class="armarios">
       <div class="estado2">Desocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Desocupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -37,7 +37,7 @@
     </div>
     <div class="armarios">
       <div class="estado1">Ocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Ocupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -49,7 +49,7 @@
     </div>
     <div class="armarios">
       <div class="estado3">Manutenção</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Manutencao()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -61,7 +61,7 @@
     </div>
     <div class="armarios">
       <div class="estado1">Ocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Ocupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -73,7 +73,7 @@
     </div>
     <div class="armarios">
       <div class="estado3">Manutenção</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Manutencao()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -86,7 +86,7 @@
     <div class="armarios">
       <div class="borda"></div>
       <div class="estado3">Manutenção</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Manutencao()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -102,7 +102,7 @@
     <div class="armarios">
       <div class="borda"></div>
       <div class="estado2">Desocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Descupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -114,7 +114,7 @@
     </div>
     <div class="armarios">
       <div class="estado3">Manutenção</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Manutencao()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -126,7 +126,7 @@
     </div>
     <div class="armarios">
       <div class="estado2">Desocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Descupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -138,7 +138,7 @@
     </div>
     <div class="armarios">
       <div class="estado2">Desocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Descupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -150,7 +150,7 @@
     </div>
     <div class="armarios">
       <div class="estado1">Ocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Ocupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -162,7 +162,7 @@
     </div>
     <div class="armarios">
       <div class="estado2">Desocupado</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Descupado()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -175,7 +175,7 @@
     <div class="armarios">
       <div class="borda"></div>
       <div class="estado3">Manutenção</div>
-      <div class="chave"></div>
+      <div id="chave" onclick="Manutencao()"></div>
       <div class="grade">
         <div class="linha"></div>
         <div class="linha"></div>
@@ -187,6 +187,12 @@
     </div>
   </div>
   <div class="apoio"></div>
+  <div onclick="fechar()">
+  <div id="pop-up">
+    <p id="texto"></p>
+  </div>
+  </div>
+<script src="js/script.js"></script>
 </body>
 
 </html>
