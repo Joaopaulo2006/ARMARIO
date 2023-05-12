@@ -1,23 +1,30 @@
+function Desocupado() {
+    var estadoDes = document.querySelector("estado2");
+    
+    if(estadoDes.innerHTML === "Desocupado") {
+        destOcu.style.backgroudColor = "rgb(145, 143, 143)";    
+        estadoDes.innerHTML === "Ocupado";
+        estadoDes.className = "destOcu";
+    }
+   
+}
 function Ocupado() {
-    var txt = document.getElementById("texto");
-    let ocupado = document.getElementById("pop-up");
-    txt.innerHTML = " Armario Ocupado";
-    ocupado.style.display = 'block';
+    if(estadoOcu === "Ocupado") {
+        alert("No momento o armário esta ocupado");
+    }
+    var estadoOcu = document.querySelector("estado1");
+    if(estadoOcu === "Ocupado") {
+        estadoOcu.textContent = "Manutenção";
+        estadoOcu.style.backgroudColor = "rgb(196, 0, 0)";
+    }
+
 
 }
 function Manutencao() {
-    alert("No momento o armário está em manutenção")
-    var txt = document.getElementById("texto");
-    let manutencao = document.getElementById("pop-up");
-    txt.innerHTML = " Armario em Manutenção";
-    manutencao.style.display = 'block';
-    txt.className = 'manutencao';
-    
-}
-function Desocupado() {
-    let desocupado = document.getElementById("pop-up");
+    if(estadoMan === "Manutenção") {
+    alert("No momento o armário está em manutenção");
+    }
    
-}
-function fechar() {
-    document.getElementById("pop-up").style.display = 'none'
+    var estadoMan = document.getElementById("estado3");
+    
 }
