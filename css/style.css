@@ -36,6 +36,34 @@ body {
   border-radius: 5px;
   font-size: large;
 }
+#estado11 {
+  background-color: rgb(145, 143, 143);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+#estado12 {
+  background-color: rgb(145, 143, 143);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+#estado13 {
+  background-color: rgb(145, 143, 143);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
 
 #estado2 {
   background-color: rgb(60, 161, 2);
@@ -46,8 +74,84 @@ body {
   border-radius: 5px;
   font-size: large;
 }
+#estado21 {
+  background-color: rgb(60, 161, 2);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+#estado22 {
+  background-color: rgb(60, 161, 2);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+#estado23 {
+  background-color: rgb(60, 161, 2);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+#estado24 {
+  background-color: rgb(60, 161, 2);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
 
 #estado3 {
+  background-color: rgb(196, 0, 0);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+#estado31 {
+  background-color: rgb(196, 0, 0);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+#estado32 {
+  background-color: rgb(196, 0, 0);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+#estado33 {
+  background-color: rgb(196, 0, 0);
+  margin-left: 12px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: large;
+  
+}
+#estado34 {
   background-color: rgb(196, 0, 0);
   margin-left: 12px;
   margin-right: 20px;
