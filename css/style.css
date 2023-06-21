@@ -22,7 +22,7 @@ body {
   margin-left: 120px;
   margin-bottom: -90px;
 }
-#estado {
+#estd {
   background-color: rgba(0, 0, 0, 0.432);
   margin-left: 12px;
   margin-right: 20px;
@@ -30,7 +30,7 @@ body {
   padding-right: 10px;
   border-radius: 5px;
   font-size: large;
-  
+
 }
 .grade {
   justify-content: center;
@@ -98,31 +98,4 @@ body {
 }
 #texto {
   text-align: center;
-}
-.estado-manutencao {
-  background-color: rgb(196, 0, 0);
-  margin-left: 12px;
-  margin-right: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  font-size: large;
-}
-.estado-desocupado {
-  background-color: green;
-  margin-left: 12px;
-  margin-right: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  font-size: large;
-}
-.estado-ocupado {
-  background-color: rgb(145, 143, 143);
-  margin-left: 12px;
-  margin-right: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  font-size: large;
 }

@@ -1,19 +1,22 @@
-function estado() {
-    var TxtEstado1 = document.querySelector('.estado');
-    if (TxtEstado1.innerHTML === "Vazio") {
-        TxtEstado1.innerHTML = "Ocupado";
-        TxtEstado1.style.backgroundColor = rgb(196, 0, 0);
+function estado(This) {
+    var content = This.previousElementSibling;
+
+
+    if (content.innerHTML === "Vazio") {
+        content.innerHTML = "Ocupado";
+        content.style.backgroundColor = 'rgb(145, 143, 143)';
     }
-    if (TxtEstado1.innerHTML === "Ocupado") {
-        
+    else if (content.innerHTML === "Ocupado") {
+        content.innerHTML = "Manutenção";
+        content.style.backgroundColor = 'rgb(196, 0, 0)';
     }
-    else if (TxtEstado1.innerHTML === "Manutenção") {
-        TxtEstado1.innerHTML = "Desocupado";
-        TxtEstado1.style.backgroundColor = 'rgb(60, 161, 2)';
+    else if (content.innerHTML === "Manutenção") {
+        content.innerHTML = "Desocupado";
+        content.style.backgroundColor = 'rgb(60, 161, 2)';
     }
     else {
-        TxtEstado1.innerHTML = "Ocupado";
-        TxtEstado1.style.backgroundColor = 'rgb(145, 143, 143)';
+        content.innerHTML = "Ocupado";
+        content.style.backgroundColor = 'rgb(145, 143, 143)';
     }
 }
 
